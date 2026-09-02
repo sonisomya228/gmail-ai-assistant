@@ -1,10 +1,13 @@
+# ================================
+# Spring Boot / Maven
+# ================================
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# STS
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +16,17 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# ================================
+# IntelliJ IDEA
+# ================================
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# ================================
+# NetBeans
+# ================================
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,7 +36,43 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# ================================
+# React / Node / Vite
+# ================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# VS Code
+# ================================
 .vscode/
 
-.env
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+
+# Old / unused extension
+extensions/
